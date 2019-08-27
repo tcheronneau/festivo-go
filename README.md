@@ -7,8 +7,7 @@ package main
 
 import (
   "fmt"
-  //"github.com/festivo-api"
-  "time"
+  "github.com/festivo-api"
 )
 
 func main() {
