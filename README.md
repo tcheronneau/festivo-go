@@ -11,7 +11,7 @@ import (
 )
 
 func main() {
-  hapi,_ := festigo.New("6559b366-fd81-4165-8c9a-553f11a75a61")
+  hapi,_ := festigo.New("YOUR_API")
   query := map[string]interface{}{
     "country": "LU",
     "year": "2019",
