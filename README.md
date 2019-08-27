@@ -7,7 +7,7 @@ package main
 
 import (
   "fmt"
-  "github.com/tcheronneau/festivo-gp"
+  "github.com/tcheronneau/festivo-go"
 )
 
 func main() {
