@@ -44,3 +44,20 @@ Will result in :
 {Christmas Day LU 2019-12-25 %!s(bool=true) 2019-12-25T00:00:00.000Z 2019-12-26T00:00:00.000Z public}
 {Boxing Day LU 2019-12-26 %!s(bool=true) 2019-12-26T00:00:00.000Z 2019-12-27T00:00:00.000Z public}
 ```
+
+Object Holiday has several accessible fields : 
+
+  Name string
+  Country string
+  Date string
+  Public bool
+  Start string
+  End string
+  Type string
+
+So if you want to access only date or name you will change the loop : 
+```
+  for _,holi := range h {
+    fmt.Printf("%s\n", holi.Date)
+  }
+```
