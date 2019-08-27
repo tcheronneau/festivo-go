@@ -46,7 +46,7 @@ Will result in :
 ```
 
 Object Holiday has several accessible fields : 
-
+```
   Name string
   Country string
   Date string
@@ -54,7 +54,7 @@ Object Holiday has several accessible fields :
   Start string
   End string
   Type string
-
+```
 So if you want to access only date or name you will change the loop : 
 ```
   for _,holi := range h {
